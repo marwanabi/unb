@@ -51,9 +51,18 @@
 							<li><a href="#">MORE</a></li>
 						</ul>
 						<ul class="nav navbar-nav navbar-right header-social-icon">
-							<li><a href="#"> <i class="fa fa-search"></i> </a></li>
-							<li><a href="#"> <i class="fa fa-facebook"></i> </a></li>
-							<li><a href="#"> <i class="fa fa-twitter"></i> </a></li>
+						<li id="toggle-search" class="header-button"><a id="search" href="#"> <i class="fa fa-search"></i> </a></li>
+                     <form id="search-form" action="">
+            <fieldset>
+               <input name="search-terms" type="search" placeholder="Search for News " />
+            </fieldset>
+            <input type="submit" value="Search" />
+         </form>
+							
+							<li><a id="facebook" href="#"> <i class="fa fa-facebook"></i> </a></li>
+                     <li><a id="twitter" href="#"> <i class="fa fa-twitter"></i> </a></li>
+							<li><a id="google" href="#"> <i class="fa fa-google-plus"></i> </a></li>
+                     <li><a id="youtube" href="#"> <i class="fa fa-youtube-play"></i> </a></li>
 							<li class="user-login" ><a href="#"> <i class="fa fa-user"></i> </a></li>
 						</ul>
 					</div><!-- /.navbar-collapse -->
